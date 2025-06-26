@@ -1,3 +1,0 @@
-<ul>
-    <li rt-repeat="item, customIndex in this.props.collection">{item} is number {customIndex}</li>
-</ul>
