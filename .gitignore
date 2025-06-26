@@ -1,34 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-### Operating systems ###
-.DS_Store
-.AppleDouble
-.LSOverride
-._*
-.Spotlight-V100
-.Trashes
-
-### Regular dev ###
 node_modules
-npm-debug.log
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
-*.iml
-
-### bower ###
-/bower_components/*
-
-### babel ###
-/dist
-/dist-test
-
-/web
-/target
-/coverage
-/.nyc_output
-
-### Test Output ###
-test/data/**/*.rt.actual.js
-test/data/**/*.code.js
-test/data/**/*.actual.html
-/package-lock.json
-/yarn.lock
-/yarn-error.log
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
